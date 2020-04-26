@@ -1,0 +1,129 @@
+
+
+
+-ifndef(RANK_NAME_SYS_HRL).
+-define(RANK_NAME_SYS_HRL, 0).
+
+
+-define(RANK_ROLE_BATTLE_POWER, 1001).
+
+
+-define(RANK_ROLE_LV, 1002).
+
+
+-define(RANK_ROLE_MONEY, 1003).
+
+
+-define(RANK_ROLE_JINMAI, 1004).
+
+
+-define(RANK_ROLE_ACHIEVEMENT, 1005).
+
+
+-define(RANK_ROLE_SHENGWANG, 1006).
+
+
+-define(RANK_ROLE_CHARM, 1007).
+
+
+-define(RANK_ROLE_COOL, 1008).
+
+
+-define(RANK_ROLE_TOWER, 1010).
+
+
+-define(RANK_TOWER_GHOST, 1011).
+
+
+-define(RANK_ROLE_1021, 1021).
+
+
+-define(RANK_ROLE_1022, 1022).
+
+
+-define(RANK_ROLE_1023, 1023).
+
+
+-define(RANK_ROLE_1024, 1024).
+
+
+-define(RANK_ROLE_1025, 1025).
+
+
+-define(RANK_ROLE_1026, 1026).
+
+
+-define(RANK_ROLE_WORLD_BOSS, 1201).
+
+
+-define(RANK_ROLE_WORLD_BOSS_KILL, 1202).
+
+
+-define(RANK_PARTNER_BATTLE_POWER, 2001).
+
+
+-define(RANK_PARTNER_LV, 2002).
+
+
+-define(RANK_EQUIP_WUQI, 3001).
+
+
+-define(RANK_EQUIP_XIANGLIAN, 3002).
+
+
+-define(RANK_EQUIP_XIEZI, 3003).
+
+
+-define(RANK_EQUIP_YIFU, 3004).
+
+
+-define(RANK_EQUIP_YAODAI, 3005).
+
+
+-define(RANK_EQUIP_TOUKUI, 3006).
+
+
+-define(RANK_ARENA_1V1_DAY, 4001).
+
+
+-define(RANK_ARENA_1V1_WEEK, 4002).
+
+
+-define(RANK_GUILD_BATTLE_POWER, 5001).
+
+
+-define(RANK_GUILD_BATTLE_PROSPER, 5002).
+
+
+-define(RANK_ARENA_3V3_DAY, 6001).
+
+
+-define(RANK_ARENA_3V3_WEEK, 6002).
+
+
+-define(RANK_MOUNT_BATTLE_POWER, 7001).
+
+
+-define(RANK_MOUNT_LV, 7002).
+
+
+-define(RANK_HOME_LUXURY, 8001).
+
+
+-define(RANK_GUILD_COLLECT, 9001).
+
+
+-define(RANK_GUILD_KILL, 9002).
+
+
+-define(RANK_GUILD_DAMAGE, 9003).
+
+
+-define(RANK_GUILD_CONTRIBUTION, 9004).
+
+
+-define(RANK_ROLE_RMB, 1066).
+
+
+-endif.
+

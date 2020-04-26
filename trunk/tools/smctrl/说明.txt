@@ -1,0 +1,14 @@
+﻿1. apt-get install screen 安装screen
+2. 打开head.sh 文件，修改配置
+	需要修改的是前面两个参数 SERVER_NUM （服务器编号） 和 DOMAIN（本机ip地址）
+	
+3. 运行smctrl.sh 可以显示脚本功能。
+	具体功能有:
+	./smctrl start            #启动游戏节点"
+	./smctrl stop             #关闭游戏节点"
+	./smctrl restart          #重启server"
+	./smctrl keephot          #持续热更（开发调试使用）"
+	./smctrl stop_keephot     #停止持续热更"
+	./smctrl show_screen      #显示所有的screen"
+	./smctrl into_server      #用screen进入server界面"
+	./smctrl into_keephot     #用screen进入keephot界面"

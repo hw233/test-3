@@ -1,0 +1,108 @@
+@echo off
+
+rem -------------------------------------------
+rem 控制脚本（windows版本）
+rem -------------------------------------------
+
+cd /d ..
+
+set OTP_BIN=C:\Program" "Files\erl5.10.4\bin
+set ERL=%OTP_BIN%\erl.exe
+set WERL=%OTP_BIN%\werl.exe
+set ESCRIPT=%OTP_BIN%\escript.exe
+
+rem 主目录
+set DIR_BASE=%cd%
+set DIR_CONFIG=%DIR_BASE%\app_cfg
+set DIR_EBIN=%DIR_BASE%\ebin
+set DIR_SCRIPT=%DIR_BASE%\script
+set DIR_SRC=%DIR_BASE%\src
+set DIR_LOG=%DIR_CONFIG%\logs
+
+
+cd /d %DIR_BASE%
+
+
+:fun_wait_input
+	set inp=%1%
+	if not [%inp%]==[] goto fun_run
+	echo.
+	echo ===============================
+	echo re_make	:全量编译代码
+	echo make		:编译最新代码
+	echo init_db	:重装数据库
+	echo h		    :热更（非hrl文件）
+	echo hh		    :热更
+	echo start		:启动跨服、游戏服
+	echo stop		:stop服务
+	echo kill		:kill服务
+	echo quit		:结束运行控制台
+	echo -------------------------------
+	set /p inp=请输入指令：
+	echo -------------------------------
+	goto fun_run
+
+:where_to_go
+	rem 区分是否带有命令行参数
+	set inp=<nul
+	if [%1]==[] goto fun_wait_input
+	goto end
+
+:fun_run
+	cd %DIR_BASE%
+	if [%inp%]==[make] goto fun_make
+	if [%inp%]==[re_make] goto fun_re_make
+	if [%inp%]==[init_db] goto fun_init_db
+	if [%inp%]==[start] goto fun_start_game
+	if [%inp%]==[stop] goto fun_stop_game
+	if [%inp%]==[kill] goto fun_kill
+	if [%inp%]==[quit] goto end
+	goto where_to_go
+
+:fun_make
+	echo 稍等几分钟
+	call mmake
+	goto where_to_go
+
+:fun_re_make
+	echo 稍等几分钟
+	call re_make
+
+	goto where_to_go
+
+:fun_init_db
+	echo 稍等几分钟
+	call import_db
+
+	goto where_to_go
+
+
+:fun_start_game
+    cd %DIR_SCRIPT%
+	call start
+
+	goto where_to_go
+
+:fun_stop_game
+    cd %DIR_SCRIPT%
+    call stop
+
+    goto where_to_go
+
+:fun_h
+    cd %DIR_EBIN%
+    %ERL% -name hot@127.0.0.1 -setcookie uc_xproj -eval "case net_adm:ping('simserver@127.0.0.1') of pang-> halt(1);_->ok end" -eval "sm_hu:h(),halt(1)"
+
+    goto where_to_go
+
+:fun_hh
+	cd %DIR_EBIN%
+    %ERL% -name hot@127.0.0.1 -setcookie uc_xproj -eval "case net_adm:ping('simserver@127.0.0.1') of pang-> halt(1);_->ok end" -eval "sm_hu:hh(),halt(1)"
+
+	goto where_to_go
+
+:fun_kill
+	taskkill /F /IM erl.exe
+	goto where_to_go
+
+:end

@@ -1,0 +1,7 @@
+打包debug版：   进入pack目录， 然后执行：  sh pack.sh
+打包release版：   进入pack目录， 然后执行：  sh pack.sh -beta
+debug的包名含alpha
+release版的包名含beta
+
+发布服密码:
+jtm%WBv^56MF>lUT

@@ -1,0 +1,16 @@
+file=online`t=2020-03-19 13:02:37`server_id=10001`num=0
+service=ny`t=2020-03-19 13:03:00`server_id=10001`uid=0`rid=0`lv=0`role_desc=`system=xs_task`action=issue`a1=sys`a2=`a3=`a4=60`a5=1143000
+file=activity`t=2020-03-19 13:07:02`server_id=10001`rid=`lv=`battle_power=`faction=`activity_type=world_boss`activity=20000000`state=live`state_type=0`team_num=`team_id=`ltime=4020
+file=online`t=2020-03-19 13:07:37`server_id=10001`num=0
+file=online`t=2020-03-19 13:12:37`server_id=10001`num=0
+file=online`t=2020-03-19 13:17:37`server_id=10001`num=0
+file=online`t=2020-03-19 13:22:37`server_id=10001`num=0
+service=ny`t=2020-03-19 13:27:01`server_id=10001`uid=0`rid=0`lv=0`role_desc=`system=xs_task`action=issue`a1=sys`a2=`a3=`a4=40`a5=1141000
+file=online`t=2020-03-19 13:27:37`server_id=10001`num=0
+file=online`t=2020-03-19 13:32:37`server_id=10001`num=0
+file=online`t=2020-03-19 13:37:37`server_id=10001`num=0
+file=online`t=2020-03-19 13:42:37`server_id=10001`num=0
+file=online`t=2020-03-19 13:47:37`server_id=10001`num=0
+service=ny`t=2020-03-19 13:51:02`server_id=10001`uid=0`rid=0`lv=0`role_desc=`system=xs_task`action=issue`a1=sys`a2=`a3=`a4=40`a5=1141000
+file=online`t=2020-03-19 13:52:37`server_id=10001`num=0
+file=online`t=2020-03-19 13:57:37`server_id=10001`num=0

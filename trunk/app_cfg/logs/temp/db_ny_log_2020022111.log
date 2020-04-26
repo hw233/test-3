@@ -1,0 +1,4 @@
+file=online`t=2020-02-21 11:56:17`server_id=10001`num=0
+service=ny`t=2020-02-21 11:56:33`server_id=10001`uid=0`rid=0`lv=0`role_desc=`system=xs_task`action=issue`a1=sys`a2=`a3=`a4=40`a5=1141000
+file=login`t=2020-02-21 11:56:53`server_id=10001`rid=1000100000000008`name=班瀛`account=gdc
+file=logout`t=2020-02-21 11:56:53`server_id=10001`rid=1000100000000008`name=班瀛`account=gdc

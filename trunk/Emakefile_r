@@ -1,0 +1,43 @@
+{
+	[
+		'src/*',
+		'src/lib/*',
+		'src/lib/json/*',
+		'src/lib/mysql/*',
+		'src/lib/log/*',
+		'src/lib/util/*',
+		'src/lib/erlcron/*',
+		'src/lib/battle/*',
+		'src/misc/*',
+		'src/mod/*',
+		'src/mod/player/*',
+		'src/pp/*',
+		'src/proto/*',
+		'src/data/*',
+		'src/timer/*',
+		'src/flash/*',
+		'src/test/*',
+		'src/test/performance/*',
+		'src/test/script/*',
+		'src/test/game_logic_test/*',
+		'src/test/robot/*',
+		'src/test/experiment/*',
+		'src/clock/*',
+		'src/third/*',
+		'src/third/db/*',
+		'src/third/web/*',
+		'src/third/log/*',
+		'src/third/perf/*',
+		'src/third/etop2/*',
+		'src/third/ibrowse/*',
+		'src/third/util/*',
+		'src/third/recon/*',
+		'src/third/util/timer/*'
+	]
+	,[
+		{i, "include/protocol"}
+		,{i, "include/third"}
+		,{i, "include"}
+		,{outdir, "ebin"}
+	]
+}.

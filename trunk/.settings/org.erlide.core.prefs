@@ -1,0 +1,7 @@
+backend_version=R16
+eclipse.preferences.version=1
+external_includes=
+external_modules=
+include_dirs=include;include/protocol;include/record;include/third;
+output_dir=ebin
+source_dirs=src/clock;src/data;src/flash;src/lib/battle;src/lib;src/lib/json;src/lib/log;src/lib/mysql;src/lib/util;src/misc;src/mod;src/mod/player;src/pp;src/proto;src;src/test;src/test/experiment;src/test/game_logic_test;src/test/performance;src/test/robot;src/test/script;src/third;src/third/db;src/third/etop2;src/third/ibrowse;src/third/log;src/third/perf;src/third/util;src/third/util/timer;src/third/web;tools/mmake;

@@ -1,0 +1,83 @@
+[2020-03-22 23:46:38] INFO(<0.246.0>:svr_clock:380): [regname:svr_clock]sys_daily_reset
+[2020-03-22 23:46:39] DEBUG(<0.311.0>:mod_scene:83): [regname:mod_cruise][mod_scene] spawn_dynamic_npc_to_scene(), NpcNo:3001, NewDynamicNpc:{npc,100000,3001,8,1304,122,106,5184000,1590075998,0,[]}, SceneId:1304, X:122, Y:106, ExpireTime:1590075998
+[2020-03-22 23:46:39] DEBUG(<0.311.0>:mod_cruise:444): [regname:mod_cruise]spawn_first_cruise_npc(), NpcId:100000
+[2020-03-22 23:46:39] DEBUG(<0.267.0>:mod_npc_mgr:158): [regname:mod_npc_mgr]add_to_dyn_npc_id_set, NpcId:100000, NewSetSize:1
+[2020-03-22 23:46:39] DEBUG(<0.280.0>:mod_go:1038): [regname:mod_go_1304][mod_go] npc_enter_scene__(), NpcId:100000, SceneId:1304, X:122, Y:106
+[2020-03-22 23:46:39] DEBUG(<0.313.0>:lib_player_ext:53): [regname:mod_rank]PlayerID=1000100000000002,Key=guild_contri,Info=0
+[2020-03-22 23:46:39] DEBUG(<0.313.0>:lib_player_ext:53): [regname:mod_rank]PlayerID=1000100000000004,Key=guild_contri,Info=0
+[2020-03-22 23:46:39] DEBUG(<0.313.0>:lib_player_ext:53): [regname:mod_rank]PlayerID=1000100000000005,Key=guild_contri,Info=0
+[2020-03-22 23:46:39] DEBUG(<0.313.0>:lib_player_ext:53): [regname:mod_rank]PlayerID=1000100000000006,Key=guild_contri,Info=0
+[2020-03-22 23:46:39] DEBUG(<0.313.0>:lib_player_ext:53): [regname:mod_rank]PlayerID=1000100000000007,Key=guild_contri,Info=0
+[2020-03-22 23:46:39] DEBUG(<0.313.0>:lib_player_ext:53): [regname:mod_rank]PlayerID=1000100000000008,Key=guild_contri,Info=0
+[2020-03-22 23:46:39] INFO(<0.313.0>:lib_rank:776): [regname:mod_rank]Read 9 rank board from database
+[2020-03-22 23:46:40] DEBUG(<0.366.0>:lib_slotmachine:102): [regname:mod_slotmachine]List=[[1,1,15,
+                                                                      453,
+                                                                      1581755480],
+                                                                     [2,2,9,
+                                                                      161,
+                                                                      1584787597],
+                                                                     [5,3,16,
+                                                                      244,
+                                                                      1584788208],
+                                                                     [9,4,23,
+                                                                      142,
+                                                                      1584788817],
+                                                                     [14,5,5,
+                                                                      311,
+                                                                      1584789427]]
+[2020-03-22 23:46:40] DEBUG(<0.367.0>:mod_guild_battle:680): [regname:mod_guild_battle]guild_battle load
+[2020-03-22 23:46:40] DEBUG(<0.60.0>:sm_networking:944): [mfa:application_master:start_it/4]not need to del_data, server_id:10001, date:{2020,
+                                                                                                                   3,
+                                                                                                                   22}
+[2020-03-22 23:46:40] WARNING(<0.60.0>:sm_server_app:39): [mfa:application_master:start_it/4]
+
+                            _ooOoo_
+                           o8888888o
+                           88" . "88
+                           (| -_- |)
+                            O\ = /O
+                        ____/`---'\____
+                         .' \\| |// `.
+                       / \\||| : |||// \
+                     / _||||| -:- |||||- \
+                       | | \\\ - /// | |
+                     | \_| ''\---/'' | |
+                      \ .-\__ `-` ___/-. /
+                   ___`. .' /--.--\ `. . __
+                ."" '< `.___\_<|>_/___.' >'"".
+               | | : `- \`.;`\ _ /`;.`/ - ` : | |
+                 \ \ `-. \_ __\ /__ _/ .-` / /
+         ======`-.____`-.___\_____/___.-`____.-'======
+                            `=---='
+
+         .............................................  
+[2020-03-22 23:46:40] WARNING(<0.60.0>:sm_server_app:60): [mfa:application_master:start_it/4]the global Pro ok! Please start the next node...
+[2020-03-22 23:46:41] ERROR(<0.370.0>:lib_guess:355): [mfa:erlang:apply/2]Err : {error,
+                                                           {failed_connect,
+                                                            [{to_address,
+                                                              {"127.0.0.1",
+                                                               8080}},
+                                                             {inet,
+                                                              [inet],
+                                                              econnrefused}]}}
+
+[2020-03-22 23:46:45] INFO(<0.380.0>:sm_reader:460): [mfa:proc_lib:init_p/5][sm_reader] login_lost(), Cmd:0, Atom:shutdown, Reason:{inet_async,#Port<0.3654>,58,{error,closed}}
+[2020-03-22 23:47:11] ERROR(<0.357.0>:mod_chat:208): [regname:mod_chat]Err : {error,
+                                                        {failed_connect,
+                                                         [{to_address,
+                                                           {"local.jinkehc.com",
+                                                            8080}},
+                                                          {inet,
+                                                           [inet],
+                                                           etimedout}]}}
+
+[2020-03-22 23:47:32] ERROR(<0.357.0>:mod_chat:208): [regname:mod_chat]Err : {error,
+                                                        {failed_connect,
+                                                         [{to_address,
+                                                           {"local.jinkehc.com",
+                                                            8080}},
+                                                          {inet,
+                                                           [inet],
+                                                           etimedout}]}}
+
+[2020-03-22 23:47:39] DEBUG(<0.311.0>:mod_cruise:269): [regname:mod_cruise][mod_cruise] cur_waiting_npc_start_cruise, ok!
